@@ -14,4 +14,4 @@ impute.R: impute missing data;
 fix_color_breed.py: reduce the number of levels in color and breeds so that it is suitable for regression;
 sol.py: run stepwise logistic regression.
 
-To find out the most likely outcomes, I ran stepwise logistic regression on each on the five possible outcomes. The R step function was used to select the best model by their AICs. Resulting probabilities were normalized to sum to 1.
+To find out the most likely outcomes, I used stepwise logistic regressions on each on the five possible outcomes. The R step function was used to select the best model by their AICs. Resulting probabilities were normalized to sum to 1.
